@@ -14,18 +14,22 @@ We just want to have a MySQL server running and move on with our lives.
 
 ### Updating and upgrading
 Before installing anything, please run:
+
 ```
 apt update -y && apt upgrade -y
 ```
+
 This will update the APT database and all the packages that need upgrading.
 
 ---
 
 ### Installing MySQL Server and Client
 In the evelated shell run:
+
 ```
 apt install mysql-server mysql-client -y
 ```
+
 and the installation for the Server and Client will get installed.
 
 ---
@@ -35,11 +39,13 @@ and the installation for the Server and Client will get installed.
 Once it's done, MySQL Server service should have been started automatically.
 
 We must shut it down temporarily while we go through the configuration files, so try any of these commands:
+
 ```
 systemctl stop mysql
 systemctl stop mysqld
 systemctl stop mysqld.service
 ```
+
 ---
 
 ### Configuration
@@ -47,11 +53,13 @@ There are some files to modify and commands to run in order to configure MySQL t
 
 #### Setting the Bind address
 Open `/etc/mysql/mysql.conf.d/mysqld.cnf` and find a line containing:
+
 ```
 bind-address = 127.0.0.1
 ```
 
 and change it to:
+
 ```
 bind-address = 0.0.0.0
 ```
@@ -62,6 +70,7 @@ It's important to know that sometimes this entry may not exist in the **mysqld.c
 
 #### Restarting the MySQL Service
 After the files have been configured we must restart the MySQL service, so try any of these commands:
+
 ```
 systemctl start mysql
 systemctl start mysqld
@@ -72,6 +81,7 @@ systemctl start mysqld.service
 
 #### Logging into MySQL and setting up permissions.
 Do these steps in the terminal, with the same order:
+
 ```
 mysql -u root -p
 
@@ -92,6 +102,7 @@ FLUSH PRIVILEGES;
 
 #### Firewall Permissions
 To allow MySQL connection through the firewall, run the command:
+
 ```
 sudo ufw allow mysql
 ```
@@ -103,9 +114,11 @@ Now you are capable of accessing the MySQL database either through localhost or 
 
 #### How do I password protect my user on MySQL?
 Going back up onto the **Logging into MySQL and setting up permissions** section, we have decided to create a user without a password.  If you want to create a user with a password you can simply redo the commands in that section and replace `''` in `IDENTIFIED BY ''` with your password, for example:
+
 ```
 CREATE USER 'root'@'localhost' IDENTIFIED BY 'yourPassword123';
 CREATE USER 'root'@'127.0.0.1' IDENTIFIED BY 'yourPassword123';
 CREATE USER 'root'@'%' IDENTIFIED BY 'yourPassword123';
 ```
+
 That should be it - you have created a user that is password protected.
