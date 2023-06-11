@@ -1,0 +1,1 @@
+var blur_amount=10;bmp_spawn(resource=bmp_load("../images/cat.bmp"),container),bmp_spawn(resource=bmp_mod_blur_gaussian(resource,5),container);
