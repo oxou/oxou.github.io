@@ -8,7 +8,7 @@ It's built as a [Single Page Application (SPA)](https://en.wikipedia.org/wiki/Si
 
 ## Support
 
-There may be posts that you find useful, interesting or helped you solve a problem and want to show support because of it then you can go the [donate](/?post=donate) post and read more about it there.
+There may be posts that you find useful, interesting or helped you solve a problem and want to show support because of it then you can go to the [donate](/?post=donate) post and read more about it there.
 
 ## Contributing
 
