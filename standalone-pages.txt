@@ -1,0 +1,5 @@
+# This file defines information for myself.
+# Below is a list that defines a set of directories
+# that are not related to the website itself.
+# They are descendants of other media/work.
+bmpjs-demos
