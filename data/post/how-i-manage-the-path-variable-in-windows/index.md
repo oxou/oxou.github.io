@@ -43,4 +43,4 @@ Run `SystemPropertiesAdvanced.exe` or `sysdm.cpl` and navigate to the `Advanced`
   
 Start a new instance of Command Prompt and run `nano`:  
 
-<img src="~/image.png">
+![](~/0.png)
