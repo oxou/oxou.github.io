@@ -48,7 +48,7 @@ This should in theory open the same profile, but again make sure to double-check
 
 ### Windows
 
-Right click on the Desktop, New -> Shortcut, specify the absolute path for `firefox.exe` and then append the parameters as shown above, go Next and specify the name of the shortcut, done.
+Right click on the Desktop, New -> Shortcut, specify the absolute path for `firefox.exe` and then append the parameters as shown above **without** `& disown`, go Next and specify the name of the shortcut, done.
 
 ### Linux
 
