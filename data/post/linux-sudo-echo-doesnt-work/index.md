@@ -11,5 +11,5 @@ but that failed.
 The workaround is to pipe it through `tee` and append to the file that way.
 
 ```bash
-echo "echo something | sudo tee -a /file-requiring-root"
+echo something | sudo tee -a /file-requiring-root
 ```
