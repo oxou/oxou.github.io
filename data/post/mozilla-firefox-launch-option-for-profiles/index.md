@@ -14,8 +14,8 @@ Before continuing on, the differences between Linux and other systems are their 
 
 |OS|Path|
 |-|-|
-|Linux|`/home/user/.mozilla/firefox/`|
-|MacOS|`/Users/<username>/Library/Application Support/Firefox/Profiles/`|
+|Linux|`/home/$USER/.mozilla/firefox/`|
+|MacOS|`/Users/$USER/Library/Application Support/Firefox/Profiles/`|
 |Windows|`%APPDATA%\Mozilla\Firefox\Profiles\`|
 
 Therefore this article applies to these systems.
