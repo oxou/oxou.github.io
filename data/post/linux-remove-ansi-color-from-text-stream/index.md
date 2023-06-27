@@ -8,6 +8,11 @@ To remove ANSI color from a text stream, pipe the STDOUT to this command:
 sed -e 's/\x1b\[[0-9;]*m//g'
 ```
 
+For macOS use this:
+```bash
+sed -e $'s/\x1b\[[0-9;]*m//g'
+```
+
 ## Example
 
 ```bash
