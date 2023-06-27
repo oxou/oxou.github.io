@@ -1,4 +1,4 @@
-# Make sudo always ask for password on Linux
+# Linux - Make sudo Always Ask For Password
 
 For "enhanced security" we'll make **sudo** always ask for password.
 

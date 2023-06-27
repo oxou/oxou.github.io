@@ -1,4 +1,4 @@
-# Unsafe Code in PHP
+# PHP - Unsafe Code
 
 Indefinite list of unsafe methods in PHP, some may not be related to Core PHP.  
   

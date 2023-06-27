@@ -1,4 +1,4 @@
-# Installing MySQL on Linux
+# Linux - Install MySQL
 
 ### Please note!
 This article applies for distributions with the `apt` package manager e.g. Ubuntu or Debian.
