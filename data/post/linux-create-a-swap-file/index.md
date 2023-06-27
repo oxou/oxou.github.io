@@ -52,7 +52,7 @@ like XFS or ext4, and on copy-on-write filesystems like btrfs.
 ### Notes
 
 - `bs=1G` means 1 Gigabyte (see [Wikipedia - Byte - Multiple-byte units](https://en.wikipedia.org/wiki/Byte#Multiple-byte_units))
-- `count=8` means 1 Gigabyte is written 8 times. You must always specify `count=1` if you want to explicitly write the size given to `bs`(it allows for bytes).
+- `count=8` means 1 Gigabyte is written 8 times. You must always specify `count=1` if you want to explicitly write the size given to `bs` (it allows for bytes).
 
 ---
 
