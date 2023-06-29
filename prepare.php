@@ -8,7 +8,7 @@
 // JavaScript.  Thanks.
 //
 // Created: 2023-06-29 05:39 PM
-// Updated: 2023-06-29 05:49 PM
+// Updated: 2023-06-29 06:19 PM
 
 // Return codes
 // 1 = json_decode not found
@@ -27,7 +27,7 @@ if (!function_exists("json_decode")) {
 }
 
 function _html_write_entry($a, $b, $c) {
-    return sprintf('<a href="/data/post/'.$a.'/index.md"><b>'.$b.'</b> '.$c.'</a><br>');
+    return sprintf('<a href="/data/post/'.$a.'/index.md" download="'.$a.'.md">DOWNLOAD</a> - <a href="/data/post/'.$a.'/index.md"><b>'.$b.'</b> '.$c.'</a><br>');
 }
 
 // JSON must exist
