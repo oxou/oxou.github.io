@@ -10,4 +10,4 @@ Locate the `Clear History...` button, a popup will appear and make the selection
 
 ![](~/0.png)
 
-Upon clearing everything, open a new tab to the URL and try accessing the HTTP version again by explicing writing the prefix `http://` which should now work.
+Upon clearing everything, open a new tab to the URL and try accessing the HTTP version again by explicitly writing the prefix `http://` which should now work.
