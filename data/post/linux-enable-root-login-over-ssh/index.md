@@ -1,5 +1,17 @@
 # Linux - Enable root Login Over SSH
 
+## Note
+
+You may need to set the `root` password by running:
+
+```
+sudo passwd root
+```
+
+otherwise SSH authentication may not work.
+
+Alternatively you can use key-based authentication which I favor more than a password.
+
 ## Editing the configuration
 
 1. Edit the sshd\_config file in `/etc/ssh/sshd_config`:
