@@ -72,7 +72,7 @@ By searching the latest driver on the
 [NVIDIA Drivers page](https://www.nvidia.com/download/index.aspx)
 I concluded that the driver I need is `390xx`.
 
-    If `lspci` does not work install it with `apt install pciutils -y`.
+If `lspci` does not work install it with `apt install pciutils -y`.
 
 To list all the available legacy drivers, use this one-liner:
 
