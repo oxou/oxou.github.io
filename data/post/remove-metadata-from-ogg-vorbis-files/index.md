@@ -1,4 +1,4 @@
-# Removing Metadata From Ogg Vorbis Files
+# Remove Metadata From Ogg Vorbis Files
 
 To remove metadata/comments from Ogg Vorbis files you must have vorbis-tools installed on your system.
 

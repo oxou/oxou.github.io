@@ -1,4 +1,4 @@
-# Removing Metadata From FLAC Files
+# Remove Metadata From FLAC Files
 
 To remove metadata/comments from FLAC files you must have `flac` installed on your system.
 
