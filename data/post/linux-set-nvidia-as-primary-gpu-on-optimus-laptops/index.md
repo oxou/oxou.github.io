@@ -61,7 +61,7 @@ To make the primary display output powered by the NVIDIA GPU, as well as
 every other application, we are gonna run this command:
 
 ```
-sudo envycontrol -s nvidia --force-comp --dm lightdm
+sudo envycontrol -s nvidia --force-comp --dm lightdm --rtd3 0
 ```
 
 You should get a similar output to this:
