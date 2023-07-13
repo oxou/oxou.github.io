@@ -1,1 +1,0 @@
-var resource=bmp_load("../images/arrow.bmp");bmp_spawn(resource,container),bmp_spawn(resource=bmp_mod_rotate_left(resource),container),bmp_spawn(resource=bmp_mod_rotate_left(resource),container),bmp_spawn(resource=bmp_mod_rotate_left(resource),container);
