@@ -1,0 +1,8 @@
+# Linux - Install Viber
+
+To install Viber run the following commands:
+
+```
+wget http://download.cdn.viber.com/cdn/desktop/Linux/viber.deb
+sudo dpkg -i viber.deb
+```
