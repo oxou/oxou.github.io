@@ -1,0 +1,3 @@
+# Crawlers, don't index anything.
+User-agent: *
+Disallow: /
