@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Redirecting to imsirovic.gitlab.io ...</title>
+  </head>
+  <body>
+    <p id="message">
+      Redirecting to <a id="link1" href="https://imsirovic.gitlab.io/">imsirovic.gitlab.io</a> ...
+      Click <a id="link2" href="https://imsirovic.gitlab.io/">here</a> if it does not redirect you.
+    </p>
+
+    <script type="text/javascript">
+      var path = window.location.pathname;
+      var query = window.location.search;
+
+      if (window.location.protocol === 'file:') {
+        path = '/';
+      }
+
+      var link1 = document.getElementById('link1');
+      var link2 = document.getElementById('link2');
+      var next_url = 'https://imsirovic.gitlab.io' + path + query
+
+      link1.href = next_url;
+      link2.href = next_url;
+
+      setTimeout(() => {
+        link1.click()
+      }, 1e3)
+    </script>
+
+    <noscript>
+      <meta http-equiv="refresh" content="1; url=https://imsirovic.gitlab.io/" />
+    </noscript>
+  </body>
+</html>
